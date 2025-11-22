@@ -1,0 +1,62 @@
+[
+  {
+    "model": "api.categoria",
+    "pk": 1,
+    "fields": {
+      "nombre": "Hamburguesas",
+      "descripcion": "Hamburguesas artesanales con carne de calidad premium"
+    }
+  },
+  {
+    "model": "api.categoria",
+    "pk": 2,
+    "fields": {
+      "nombre": "Pizzas",
+      "descripcion": "Pizzas artesanales con masa casera"
+    }
+  },
+  {
+    "model": "api.categoria",
+    "pk": 3,
+    "fields": {
+      "nombre": "Empanadas",
+      "descripcion": "Empanadas caseras horneadas"
+    }
+  },
+  {
+    "model": "api.producto",
+    "pk": 1,
+    "fields": {
+      "nombre": "Hamburguesa Clásica",
+      "descripcion": "Carne, lechuga, tomate y queso cheddar",
+      "precio": "2500.00",
+      "categoria": 1,
+      "stock": 15,
+      "disponible": true
+    }
+  },
+  {
+    "model": "api.producto",
+    "pk": 2,
+    "fields": {
+      "nombre": "Pizza Margherita",
+      "descripcion": "Salsa de tomate, mozzarella y albahaca",
+      "precio": "3200.00",
+      "categoria": 2,
+      "stock": 10,
+      "disponible": true
+    }
+  },
+  {
+    "model": "api.producto",
+    "pk": 3,
+    "fields": {
+      "nombre": "Empanadas de Carne",
+      "descripcion": "Carne cortada a cuchillo (precio por unidad)",
+      "precio": "180.00",
+      "categoria": 3,
+      "stock": 50,
+      "disponible": true
+    }
+  }
+]
